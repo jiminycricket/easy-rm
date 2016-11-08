@@ -1,0 +1,17 @@
+{
+  "env": {
+    "browser": false,
+      "node": true,
+      "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {}
+  },
+  "rules": {
+        "array-bracket-spacing": [ 2, "always" ],
+        "prefer-arrow-callback": 2,
+        "semi": [ 2, "always" ]
+    }
+}

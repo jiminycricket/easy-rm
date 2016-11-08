@@ -1,0 +1,28 @@
+{
+  "name": "easy-rm",
+  "version": "0.0.1",
+  "description": "small tool to delete a file in node, promise way.",
+  "main": "index.js",
+  "scripts": {
+    "touch": "touch ./test/test.txt",
+    "test": "npm run touch && eslint ./index.js && mocha ./test.js"
+  },
+  "keywords": [
+    "rm",
+    "delete",
+    "promise"
+  ],
+  "bugs": {
+    "url": "https://github.com/jiminycricket/easy-rm/issues",
+    "email": "jiminy.upon.star@gmail.com"
+  },
+  "repository": "https://github.com/jiminycricket/easy-rm",
+  "author": "jiminycricket (https://github.com/jiminycricket)",
+  "license": "MIT",
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "chalk": "^1.1.3",
+    "eslint": "^3.9.1",
+    "mocha": "^3.1.2"
+  }
+}
